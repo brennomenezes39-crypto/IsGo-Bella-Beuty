@@ -1,0 +1,8 @@
+# Cloudflare Pages: cache longo para o que não muda, e downloads com nome certo
+/assets/*
+  Cache-Control: public, max-age=604800
+/img/*
+  Cache-Control: public, max-age=604800
+/downloads/*
+  Cache-Control: public, max-age=86400
+  X-Content-Type-Options: nosniff

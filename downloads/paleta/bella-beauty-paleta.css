@@ -1,0 +1,8 @@
+:root {
+  --verde-floresta-profundo: #18261C;
+  --verde-oliva: #2A402F;
+  --champagne-claro: #F2EBDC;
+  --dourado-areia: #D9B07E;
+  --caramelo-bronze: #8C5E35;
+  --gradiente-dourado: linear-gradient(135deg, #EFD28A, #D9B07E 45%, #8C5E35);
+}

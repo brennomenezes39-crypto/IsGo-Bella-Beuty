@@ -1,0 +1,90 @@
+{
+  "marca": "Bella Beauty Studio",
+  "cores": [
+    {
+      "nome": "Verde Floresta Profundo",
+      "hex": "#18261C",
+      "rgb": [
+        24,
+        38,
+        28
+      ],
+      "cmyk": [
+        37,
+        0,
+        26,
+        85
+      ],
+      "uso": "Fundo principal, base de toda a comunicação"
+    },
+    {
+      "nome": "Verde Oliva",
+      "hex": "#2A402F",
+      "rgb": [
+        42,
+        64,
+        47
+      ],
+      "cmyk": [
+        34,
+        0,
+        27,
+        75
+      ],
+      "uso": "Fundos secundários, blocos e logo positivo"
+    },
+    {
+      "nome": "Champagne Claro",
+      "hex": "#F2EBDC",
+      "rgb": [
+        242,
+        235,
+        220
+      ],
+      "cmyk": [
+        0,
+        3,
+        9,
+        5
+      ],
+      "uso": "Logo sobre escuro, fundos claros e respiros"
+    },
+    {
+      "nome": "Dourado Areia",
+      "hex": "#D9B07E",
+      "rgb": [
+        217,
+        176,
+        126
+      ],
+      "cmyk": [
+        0,
+        19,
+        42,
+        15
+      ],
+      "uso": "Destaques, detalhes e logo sobre verde"
+    },
+    {
+      "nome": "Caramelo Bronze",
+      "hex": "#8C5E35",
+      "rgb": [
+        140,
+        94,
+        53
+      ],
+      "cmyk": [
+        0,
+        33,
+        62,
+        45
+      ],
+      "uso": "Profundidade do dourado e acentos quentes"
+    }
+  ],
+  "gradiente": [
+    "#EFD28A",
+    "#D9B07E",
+    "#8C5E35"
+  ]
+}

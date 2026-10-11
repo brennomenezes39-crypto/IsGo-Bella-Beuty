@@ -1,0 +1,35 @@
+BELLA BEAUTY STUDIO — PALETA OFICIAL
+
+Verde Floresta Profundo
+  HEX  #18261C
+  RGB  24, 38, 28
+  CMYK 37, 0, 26, 85 (conversão aproximada)
+  Uso  Fundo principal, base de toda a comunicação
+
+Verde Oliva
+  HEX  #2A402F
+  RGB  42, 64, 47
+  CMYK 34, 0, 27, 75 (conversão aproximada)
+  Uso  Fundos secundários, blocos e logo positivo
+
+Champagne Claro
+  HEX  #F2EBDC
+  RGB  242, 235, 220
+  CMYK 0, 3, 9, 5 (conversão aproximada)
+  Uso  Logo sobre escuro, fundos claros e respiros
+
+Dourado Areia
+  HEX  #D9B07E
+  RGB  217, 176, 126
+  CMYK 0, 19, 42, 15 (conversão aproximada)
+  Uso  Destaques, detalhes e logo sobre verde
+
+Caramelo Bronze
+  HEX  #8C5E35
+  RGB  140, 94, 53
+  CMYK 0, 33, 62, 45 (conversão aproximada)
+  Uso  Profundidade do dourado e acentos quentes
+
+Gradiente dourado: #EFD28A → #D9B07E → #8C5E35
+
+Identidade por IsGo! — isgodigital.com.br

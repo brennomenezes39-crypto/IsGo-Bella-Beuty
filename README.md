@@ -3,7 +3,7 @@
 Manual de marca da Bella Beauty Studio em formato de site, no lugar do PDF.
 Identidade visual e site por **IsGo! Mídia & Marketing**.
 
-Endereço planejado: <https://bellabeauty.isgodigital.com.br>
+Endereço: <https://bellabeauty.isgodigital.com.br>
 
 É um site estático: HTML, CSS e JS sem etapa de build. As animações usam
 GSAP 3.13 (ScrollTrigger, SplitText, DrawSVG e CustomEase, todos gratuitos),
@@ -59,24 +59,13 @@ npm i -D playwright && node scripts/renderizar.js                               
 python3 scripts/empacotar.py                                                       # 4. ZIP completo
 ```
 
-## Publicar na Cloudflare Pages (sem a marca da Vercel no endereço)
+## Publicação
 
-1. Em <https://dash.cloudflare.com>, entre em **Workers & Pages → Create →
-   Pages → Connect to Git** e escolha o repositório `IsGo-Bella-Beuty`.
-2. Configuração do build:
-   - **Framework preset:** None
-   - **Build command:** deixe vazio
-   - **Build output directory:** `/`
-3. **Save and Deploy.** O site sobe em um endereço `*.pages.dev`.
-4. No projeto, abra **Custom domains → Set up a custom domain** e digite
-   `bellabeauty.isgodigital.com.br`.
-   - Se o DNS de `isgodigital.com.br` já está na Cloudflare, ela cria o
-     registro sozinha.
-   - Se o DNS está em outro lugar (registro.br, Vercel, Hostinger…), crie lá
-     um registro **CNAME** com nome `bellabeauty` apontando para o endereço
-     `*.pages.dev` do projeto. O HTTPS sai automático em alguns minutos.
-
-Depois disso, todo `git push` na `main` republica o site sozinho.
+O site roda na **Vercel**, no projeto ligado a este repositório, com o
+endereço <https://bellabeauty.isgodigital.com.br> (o DNS de
+`isgodigital.com.br` já é da Vercel). Todo `git push` na `main` republica
+sozinho; não há build. `vercel.json` define o cache e `.vercelignore` deixa
+`scripts/`, `fonte/`, `marca/` e este README fora do site.
 
 ## Pontos para a IsGo! validar
 
